@@ -1,0 +1,152 @@
+[
+  {
+    "id": "fintech-dashboard",
+    "title": "Real-Time Trading Platform",
+    "short": "A comprehensive financial dashboard with real-time data processing, serving 50,000+ active traders with sub-second latency.",
+    "long": "We developed a sophisticated trading platform that handles millions of transactions daily. The system features real-time market data streaming, advanced charting tools, portfolio management, and risk analytics. Built with a microservices architecture to ensure scalability and reliability, the platform supports multiple asset classes including stocks, options, and cryptocurrencies. Our implementation of WebSocket connections ensures traders receive market updates in real-time, while our caching strategy optimizes performance for frequently accessed data.",
+    "images": [
+      "../../public/trading.jpeg"
+    ],
+    "stack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "WebSocket",
+      "Redis",
+      "PostgreSQL",
+      "AWS",
+      "Docker"
+    ],
+    "industry": "fintech",
+    "stats": [
+      { "label": "Active Users", "value": "50K+" },
+      { "label": "Daily Transactions", "value": "2M+" },
+      { "label": "Response Time", "value": "<100ms" },
+      { "label": "Uptime", "value": "99.99%" }
+    ]
+  },
+  {
+    "id": "healthcare-platform",
+    "title": "Telemedicine Platform",
+    "short": "HIPAA-compliant telehealth solution connecting patients with healthcare providers through secure video consultations.",
+    "long": "A comprehensive telemedicine platform that revolutionizes healthcare delivery. The system includes patient registration, appointment scheduling, secure video consultations, electronic prescriptions, and integrated payment processing. Built with HIPAA compliance at its core, featuring end-to-end encryption, audit logging, and role-based access control. The platform supports both web and mobile applications, allowing patients to access care from anywhere.",
+    "images": [
+      "../../public/telemedicine.jpeg"
+    ],
+    "stack": [
+      "React Native",
+      "Python",
+      "Django",
+      "WebRTC",
+      "PostgreSQL",
+      "AWS",
+      "Stripe"
+    ],
+    "industry": "healthcare",
+    "stats": [
+      { "label": "Consultations/Month", "value": "15K+" },
+      { "label": "Patient Satisfaction", "value": "4.8/5" },
+      { "label": "Average Wait Time", "value": "<5min" },
+      { "label": "Cost Savings", "value": "40%" }
+    ]
+  },
+  {
+    "id": "ecommerce-marketplace",
+    "title": "Multi-Vendor Marketplace",
+    "short": "Scalable e-commerce platform supporting thousands of sellers and millions of products with advanced search and recommendations.",
+    "long": "Built a feature-rich marketplace that connects buyers with sellers across multiple categories. The platform includes advanced search with Elasticsearch, personalized product recommendations using machine learning, real-time inventory management, multi-currency support, and integrated shipping solutions.",
+    "images": [
+      "../../public/E commerce.jpeg"
+    ],
+    "stack": [
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "Elasticsearch",
+      "Redis",
+      "Stripe",
+      "AWS"
+    ],
+    "industry": "ecommerce",
+    "stats": [
+      { "label": "Active Sellers", "value": "5K+" },
+      { "label": "Products Listed", "value": "2M+" },
+      { "label": "Monthly GMV", "value": "$10M+" },
+      { "label": "Conversion Rate", "value": "3.2%" }
+    ]
+  },
+  {
+    "id": "learning-management-system",
+    "title": "Enterprise LMS",
+    "short": "Comprehensive learning management system for corporate training with interactive courses, assessments, and progress tracking.",
+    "long": "An enterprise-grade LMS for large organizations, including course creation tools, interactive quizzes, certification tracking, and analytics. Supports SCORM/xAPI and integrates with video conferencing platforms for live sessions.",
+    "images": [
+      "../../public/Enterprise-LMS.png"
+    ],
+    "stack": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "S3",
+      "Elasticsearch",
+      "Docker"
+    ],
+    "industry": "education",
+    "stats": [
+      { "label": "Active Learners", "value": "100K+" },
+      { "label": "Courses Available", "value": "1,500+" },
+      { "label": "Completion Rate", "value": "85%" },
+      { "label": "Engagement Score", "value": "4.7/5" }
+    ]
+  },
+  {
+    "id": "iot-monitoring-system",
+    "title": "Industrial IoT Platform",
+    "short": "Real-time monitoring and predictive maintenance system for manufacturing equipment using IoT sensors and AI.",
+    "long": "An IoT platform that monitors manufacturing equipment with predictive maintenance capabilities. Features real-time dashboards, anomaly detection, and automated alerts, significantly reducing downtime and costs.",
+    "images": [
+      "../../public/industrial IOT.jpeg"
+    ],
+    "stack": [
+      "React",
+      "Python",
+      "TensorFlow",
+      "InfluxDB",
+      "Kafka",
+      "AWS IoT",
+      "Grafana"
+    ],
+    "industry": "manufacturing",
+    "stats": [
+      { "label": "Connected Devices", "value": "10K+" },
+      { "label": "Data Points/Day", "value": "50M+" },
+      { "label": "Downtime Reduction", "value": "45%" },
+      { "label": "Cost Savings", "value": "$2M/yr" }
+    ]
+  },
+  {
+    "id": "hotel-management-system",
+    "title": "Hotel Management Suite",
+    "short": "Integrated property management system with booking engine, POS, housekeeping, and guest services for boutique hotels.",
+    "long": "A comprehensive hotel management solution that includes booking, POS, housekeeping, CRM, and guest services. Integrated with OTAs and built for scalability across multiple properties.",
+    "images": [
+      "../../public/hotel manage.jpeg"
+      
+    ],
+    "stack": [
+      "Vue.js",
+      "Node.js",
+      "MySQL",
+      "Redis",
+      "React Native",
+      "AWS"
+    ],
+    "industry": "hospitality",
+    "stats": [
+      { "label": "Properties", "value": "50+" },
+      { "label": "Bookings/Year", "value": "200K+" },
+      { "label": "Guest Satisfaction", "value": "4.6/5" },
+      { "label": "Revenue Increase", "value": "25%" }
+    ]
+  }
+]

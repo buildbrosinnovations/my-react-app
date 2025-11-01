@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <rect x="5" y="15" width="20" height="30" rx="2" fill="#0ea5e9"/>
+  <rect x="30" y="10" width="20" height="35" rx="2" fill="#0284c7"/>
+  <circle cx="15" cy="50" r="4" fill="#0ea5e9"/>
+  <circle cx="40" cy="50" r="4" fill="#0284c7"/>
+  <text x="65" y="35" font-family="Inter, sans-serif" font-size="24" font-weight="700" fill="#1e293b">BuildBros</text>
+  <text x="65" y="50" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#64748b">Innovations</text>
+</svg>
