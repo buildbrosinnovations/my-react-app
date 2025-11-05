@@ -14,13 +14,17 @@ const ContactForm = () => {
     setStatus('submitting')
 
     try {
-      // ✅ Replace with your actual Formspree endpoint
-      const response = await fetch('https://formspree.io/f/buildbrosinnovations@gmail.com', {
+      // ✅ Updated to your actual Formspree endpoint
+      const response = await fetch('https://formspree.io/f/xrbongrr', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          Accept: 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          ...formData,
+          _subject: `New message from ${formData.name} via BuildBros Innovations`,
+        }),
       })
 
       if (response.ok) {
@@ -30,6 +34,7 @@ const ContactForm = () => {
         setStatus('error')
       }
     } catch (error) {
+      console.error(error)
       setStatus('error')
     }
   }
