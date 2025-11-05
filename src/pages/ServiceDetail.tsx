@@ -5,152 +5,143 @@ import Meta from '../components/Meta'
 const serviceDetails: Record<string, any> = {
   'custom-software': {
     title: 'Custom Software Development',
-    subtitle: 'Tailored solutions that perfectly fit your business needs',
-    image: '/custom-website.jpeg',
+    subtitle: 'End-to-end solutions tailored to your business goals.',
+    image: '/custom website.jpeg',
     description:
-      'We specialize in building custom software applications that solve unique business challenges. Our experienced team works closely with you to understand your requirements and deliver solutions that drive efficiency and growth.',
+      'Our custom software development team builds scalable, secure, and high-performing software to match your exact business requirements. We collaborate closely with your stakeholders to create software that grows with your company.',
     features: [
-      'Enterprise Application Development',
-      'Legacy System Modernization',
-      'API Development & Integration',
-      'Database Design & Optimization',
-      'Third-Party Software Integration',
-      'Ongoing Maintenance & Support',
+      'Enterprise-grade applications',
+      'Custom ERP & CRM systems',
+      'API integrations',
+      'Third-party software integration',
+      'Maintenance & ongoing support',
     ],
-    technologies: ['React', 'Spring Boot', 'Java', 'MySQL', 'Docker', 'AWS'],
-    benefits: [
-      { title: 'Scalable Architecture', description: 'Built to grow with your business, handling increased load without performance degradation.' },
-      { title: 'Secure by Design', description: 'Industry-standard security practices implemented from day one to protect your data.' },
-      { title: 'Agile Development', description: 'Iterative approach with regular feedback cycles ensures we build exactly what you need.' },
-    ],
+    technologies: ['React', 'Node.js', 'Spring Boot', 'MySQL', 'AWS', 'Docker'],
   },
 
   'web-development': {
     title: 'Web Development',
-    subtitle: 'Modern, responsive websites that engage and convert',
-    image: '../../public/Web development.jpeg',
+    subtitle: 'Modern, responsive web solutions for all platforms.',
+    image: '/Web development.jpeg',
     description:
-      'Create stunning web experiences that work flawlessly across all devices. From simple landing pages to complex web applications, we build fast, secure, and user-friendly websites.',
+      'We create fast, interactive, and SEO-friendly web applications that help your brand stand out. Whether you need a simple website or a large-scale SaaS platform, we deliver quality code and smooth performance.',
     features: [
-      'Responsive Web Design',
-      'Progressive Web Apps (PWA)',
-      'E-commerce Solutions',
-      'CMS Integration',
+      'Responsive design',
+      'E-commerce platforms',
+      'Custom CMS systems',
+      'PWA (Progressive Web Apps)',
       'Single Page Applications (SPA)',
-      'SEO Optimization',
     ],
     technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js'],
-    benefits: [
-      { title: 'Lightning Fast', description: 'Optimized for speed with sub-second load times and smooth interactions.' },
-      { title: 'Mobile-First', description: 'Designed for mobile devices first, ensuring perfect experience on any screen.' },
-      { title: 'SEO Optimized', description: 'Built with search engines in mind to maximize your online visibility.' },
-    ],
   },
 
   'mobile-apps': {
     title: 'Mobile App Development',
-    subtitle: 'Native and cross-platform apps that users love',
-    image: '../../public/mobile devlopment.jpeg',
+    subtitle: 'Native and cross-platform apps that engage users.',
+    image: '/mobile devlopment.jpeg',
     description:
-      'Build engaging mobile experiences for iOS and Android. Whether you need a native app or a cross-platform solution, we deliver high-performance applications that delight users.',
+      'We design and build mobile applications that offer seamless user experiences and robust functionality. Our apps are built for both iOS and Android using modern frameworks.',
     features: [
-      'Native iOS Development',
-      'Native Android Development',
-      'Cross-Platform (React Native, Flutter)',
-      'App Store Optimization',
-      'Push Notifications',
-      'Offline Functionality',
+      'Native iOS & Android apps',
+      'Cross-platform (React Native, Flutter)',
+      'Push notifications',
+      'App Store & Play Store deployment',
+      'Offline functionality',
     ],
     technologies: ['React Native', 'Flutter', 'Swift', 'Kotlin', 'Firebase'],
-    benefits: [
-      { title: 'Native Performance', description: 'Smooth, responsive interfaces that feel natural on each platform.' },
-      { title: 'Offline Support', description: 'Apps that work seamlessly even without an internet connection.' },
-      { title: 'Easy Maintenance', description: 'Clean code architecture that makes updates and enhancements simple.' },
-    ],
   },
 
   'cloud-solutions': {
     title: 'Cloud Solutions',
-    subtitle: 'Scalable, reliable, and cost-efficient cloud infrastructure',
-    image: '../../public/cloud solutions.png',
+    subtitle: 'Scalable and secure cloud infrastructure for your business.',
+    image: '/cloud solutions.png',
     description:
-      'Leverage the power of AWS, Azure, and GCP with our cloud expertise. We help you design, migrate, and manage scalable cloud solutions tailored to your business.',
+      'Our cloud solutions ensure your business is always online, scalable, and cost-effective. We specialize in AWS, Azure, and GCP to build and maintain world-class cloud infrastructure.',
     features: [
-      'Cloud Migration & Optimization',
-      'Serverless Architecture',
-      'CI/CD Automation',
-      'Disaster Recovery Setup',
-      'Performance Monitoring',
+      'Cloud migration',
+      'Serverless architecture',
+      'Infrastructure as Code (IaC)',
+      'CI/CD pipelines',
+      'Monitoring & optimization',
     ],
-    technologies: ['AWS', 'Azure', 'GCP', 'Docker', 'Kubernetes', 'Terraform'],
-    benefits: [
-      { title: 'Reduced Costs', description: 'Optimize infrastructure expenses with scalable, pay-as-you-go solutions.' },
-      { title: 'Improved Reliability', description: 'High availability and fault-tolerant systems that minimize downtime.' },
-      { title: 'Faster Deployment', description: 'Automated pipelines accelerate feature delivery and updates.' },
-    ],
+    technologies: ['AWS', 'Azure', 'GCP', 'Kubernetes', 'Terraform'],
   },
 
   'ai-ml': {
     title: 'AI & Machine Learning',
-    subtitle: 'Empowering your business with intelligent automation',
-    image: '../../public/Ai&ml.png',
+    subtitle: 'Smarter, data-driven decisions with intelligent systems.',
+    image: '/Ai&ml.png',
     description:
-      'Harness artificial intelligence and machine learning to make smarter decisions, automate workflows, and uncover patterns from your data.',
+      'From predictive analytics to automation, our AI & ML experts build intelligent systems that analyze data, learn from it, and drive better business outcomes.',
     features: [
-      'Predictive Analytics',
-      'Natural Language Processing',
-      'Computer Vision',
-      'Recommendation Systems',
-      'Data Classification & Clustering',
+      'Predictive analytics',
+      'Natural language processing',
+      'Image recognition',
+      'Recommendation engines',
+      'Custom ML model development',
     ],
-    technologies: ['Python', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'Pandas', 'NumPy'],
-    benefits: [
-      { title: 'Smarter Insights', description: 'Use data-driven insights for better decision-making.' },
-      { title: 'Automation', description: 'Reduce manual work through intelligent systems.' },
-      { title: 'Scalable Models', description: 'Solutions that adapt as your data and business grow.' },
-    ],
+    technologies: ['Python', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'Pandas'],
   },
 
   'data-science': {
     title: 'Data Science',
-    subtitle: 'Transform data into actionable business intelligence',
-    image: '../../public/Data science.jpeg',
+    subtitle: 'Turn data into business intelligence and insights.',
+    image: '/Data science.jpeg',
     description:
-      'Unlock insights from data with advanced analytics, predictive modeling, and visualization. We help you harness the power of your data for strategic decision-making.',
+      'We help organizations harness the power of data with advanced analytics, machine learning models, and custom dashboards for real-time insights.',
     features: [
-      'Data Collection & Cleaning',
+      'Data cleaning & preprocessing',
       'Exploratory Data Analysis (EDA)',
-      'Statistical Modeling',
-      'Machine Learning Integration',
-      'Data Visualization Dashboards',
+      'Model training & deployment',
+      'Data visualization',
+      'Predictive modeling',
     ],
-    technologies: ['Python', 'R', 'Tableau', 'Power BI', 'SQL', 'Pandas'],
-    benefits: [
-      { title: 'Actionable Insights', description: 'Convert raw data into meaningful business intelligence.' },
-      { title: 'Informed Decisions', description: 'Predict trends and behaviors with data-backed models.' },
-      { title: 'Custom Dashboards', description: 'Real-time visualization for better monitoring and analysis.' },
+    technologies: ['Python', 'R', 'Tableau', 'Power BI', 'SQL'],
+  },
+
+  'ui-ux-design': {
+    title: 'UI/UX Design',
+    subtitle: 'Designs that delight users and drive conversions.',
+    image: '/Ui&ux design.jpeg',
+    description:
+      'Our design team crafts intuitive interfaces that enhance usability and elevate your brand. Every pixel and interaction is focused on creating an exceptional user experience.',
+    features: [
+      'User research & wireframing',
+      'UI/UX strategy & prototyping',
+      'Responsive design systems',
+      'Design handoff & documentation',
     ],
+    technologies: ['Figma', 'Adobe XD', 'Sketch', 'InVision', 'Framer'],
   },
 
   'devops': {
     title: 'DevOps & CI/CD',
-    subtitle: 'Automate and accelerate your development process',
-    image: '../../public/Devops.jpg',
+    subtitle: 'Faster releases with reliable automation pipelines.',
+    image: '/Devops.jpg',
     description:
-      'Implement continuous integration and deployment pipelines to improve collaboration, reduce delivery times, and ensure reliable releases.',
+      'We implement DevOps practices that improve efficiency, reduce manual errors, and enable faster, more reliable deployments across your software ecosystem.',
     features: [
-      'CI/CD Pipeline Setup',
-      'Containerization (Docker, Kubernetes)',
-      'Monitoring & Logging',
-      'Automated Testing',
-      'Version Control Integration',
+      'Continuous integration & delivery (CI/CD)',
+      'Containerization with Docker & Kubernetes',
+      'Infrastructure monitoring',
+      'Automated testing pipelines',
     ],
-    technologies: ['Jenkins', 'GitHub Actions', 'Docker', 'Kubernetes', 'AWS', 'Terraform'],
-    benefits: [
-      { title: 'Faster Releases', description: 'Automate your delivery process for faster time-to-market.' },
-      { title: 'Improved Quality', description: 'Early issue detection with automated testing pipelines.' },
-      { title: 'Enhanced Collaboration', description: 'Bridge the gap between dev and ops teams.' },
+    technologies: ['Jenkins', 'GitHub Actions', 'Docker', 'Kubernetes', 'AWS'],
+  },
+
+  'data-analytics': {
+    title: 'Data Analytics',
+    subtitle: 'Data-driven strategies to fuel business growth.',
+    image: '/Data analytics.jpeg',
+    description:
+      'Transform your raw data into clear insights through analytics dashboards, BI reports, and custom data visualization tools that support informed decision-making.',
+    features: [
+      'Dashboard & reporting tools',
+      'Data visualization',
+      'Business intelligence (BI)',
+      'ETL pipelines',
     ],
+    technologies: ['Power BI', 'Tableau', 'Python', 'SQL', 'Excel'],
   },
 }
 
@@ -166,7 +157,7 @@ const ServiceDetail = () => {
           The service you're looking for doesn't exist.
         </p>
         <Link to="/services" className="btn-primary">
-          View All Services
+          Back to Services
         </Link>
       </div>
     )
@@ -174,16 +165,9 @@ const ServiceDetail = () => {
 
   return (
     <>
-      <Meta
-        title={`${service.title} - BuildBros Innovations`}
-        description={service.description}
-      />
+      <Meta title={`${service.title} - BuildBros Innovations`} description={service.description} />
 
-      <Hero
-        title={service.title}
-        subtitle={service.subtitle}
-        backgroundImage={service.image}
-      />
+      <Hero title={service.title} subtitle={service.subtitle} backgroundImage={service.image} />
 
       <section className="section-padding bg-white">
         <div className="container-custom">
@@ -194,9 +178,7 @@ const ServiceDetail = () => {
               className="w-full rounded-xl mb-10 shadow-md"
             />
 
-            <p className="text-lg text-slate-700 leading-relaxed mb-12">
-              {service.description}
-            </p>
+            <p className="text-lg text-slate-700 leading-relaxed mb-12">{service.description}</p>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
               <div>
@@ -236,25 +218,13 @@ const ServiceDetail = () => {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-slate-900 mb-8">Key Benefits</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-              {service.benefits.map((benefit: any, index: number) => (
-                <div key={index} className="card p-6">
-                  <h3 className="text-xl font-semibold text-slate-900 mb-3">{benefit.title}</h3>
-                  <p className="text-slate-600">{benefit.description}</p>
-                </div>
-              ))}
-            </div>
-
             <div className="bg-gradient-to-r from-primary-50 to-secondary-50 rounded-2xl p-8 text-center">
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">
-                Ready to Get Started?
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4">Ready to Get Started?</h3>
               <p className="text-slate-600 mb-6">
-                Let's discuss how we can help bring your project to life.
+                Let’s collaborate to bring your vision to life. Contact our team today!
               </p>
               <Link to="/contact" className="btn-primary">
-                Contact Us Today
+                Contact Us
               </Link>
             </div>
           </div>

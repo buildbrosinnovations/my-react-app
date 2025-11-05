@@ -5,7 +5,7 @@
     "short": "A comprehensive financial dashboard with real-time data processing, serving 50,000+ active traders with sub-second latency.",
     "long": "We developed a sophisticated trading platform that handles millions of transactions daily. The system features real-time market data streaming, advanced charting tools, portfolio management, and risk analytics. Built with a microservices architecture to ensure scalability and reliability, the platform supports multiple asset classes including stocks, options, and cryptocurrencies. Our implementation of WebSocket connections ensures traders receive market updates in real-time, while our caching strategy optimizes performance for frequently accessed data.",
     "images": [
-      "../../public/trading.jpeg"
+      "/trading.jpeg"
     ],
     "stack": [
       "React",
@@ -31,7 +31,7 @@
     "short": "HIPAA-compliant telehealth solution connecting patients with healthcare providers through secure video consultations.",
     "long": "A comprehensive telemedicine platform that revolutionizes healthcare delivery. The system includes patient registration, appointment scheduling, secure video consultations, electronic prescriptions, and integrated payment processing. Built with HIPAA compliance at its core, featuring end-to-end encryption, audit logging, and role-based access control. The platform supports both web and mobile applications, allowing patients to access care from anywhere.",
     "images": [
-      "../../public/telemedicine.jpeg"
+      "/telemedicine.jpeg"
     ],
     "stack": [
       "React Native",
@@ -56,7 +56,7 @@
     "short": "Scalable e-commerce platform supporting thousands of sellers and millions of products with advanced search and recommendations.",
     "long": "Built a feature-rich marketplace that connects buyers with sellers across multiple categories. The platform includes advanced search with Elasticsearch, personalized product recommendations using machine learning, real-time inventory management, multi-currency support, and integrated shipping solutions.",
     "images": [
-      "../../public/E commerce.jpeg"
+      "/E commerce.jpeg"
     ],
     "stack": [
       "Next.js",
@@ -81,7 +81,7 @@
     "short": "Comprehensive learning management system for corporate training with interactive courses, assessments, and progress tracking.",
     "long": "An enterprise-grade LMS for large organizations, including course creation tools, interactive quizzes, certification tracking, and analytics. Supports SCORM/xAPI and integrates with video conferencing platforms for live sessions.",
     "images": [
-      "../../public/Enterprise-LMS.png"
+      "/Enterprise-LMS.png"
     ],
     "stack": [
       "React",
@@ -105,7 +105,7 @@
     "short": "Real-time monitoring and predictive maintenance system for manufacturing equipment using IoT sensors and AI.",
     "long": "An IoT platform that monitors manufacturing equipment with predictive maintenance capabilities. Features real-time dashboards, anomaly detection, and automated alerts, significantly reducing downtime and costs.",
     "images": [
-      "../../public/industrial IOT.jpeg"
+      "/industrial IOT.jpeg"
     ],
     "stack": [
       "React",
@@ -130,8 +130,7 @@
     "short": "Integrated property management system with booking engine, POS, housekeeping, and guest services for boutique hotels.",
     "long": "A comprehensive hotel management solution that includes booking, POS, housekeeping, CRM, and guest services. Integrated with OTAs and built for scalability across multiple properties.",
     "images": [
-      "../../public/hotel manage.jpeg"
-      
+      "/hotel manage.jpeg"
     ],
     "stack": [
       "Vue.js",

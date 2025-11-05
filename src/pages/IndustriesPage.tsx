@@ -9,7 +9,7 @@ const industries = [
     description:
       'HIPAA-compliant solutions including telemedicine platforms, patient management systems, and healthcare analytics.',
     examples: ['Electronic Health Records', 'Telemedicine Apps', 'Medical Device Integration'],
-    image: '../../public/Health care.jpeg',
+    image: '/Health care.jpeg',
   },
   {
     icon: '💰',
@@ -17,7 +17,7 @@ const industries = [
     description:
       'Secure financial applications, payment processing systems, and trading platforms with real-time data.',
     examples: ['Digital Banking', 'Payment Gateways', 'Trading Platforms'],
-    image: '../../public/Fintech.jpeg',
+    image: '/Fintech.jpeg',
   },
   {
     icon: '🛒',
@@ -25,7 +25,7 @@ const industries = [
     description:
       'Scalable online stores, inventory management, and personalized shopping experiences.',
     examples: ['Online Marketplaces', 'B2B Platforms', 'Mobile Commerce'],
-    image: '../../public/E commerce.jpeg',
+    image: '/E commerce.jpeg',
   },
   {
     icon: '🎓',
@@ -33,7 +33,7 @@ const industries = [
     description:
       'Learning management systems, virtual classrooms, and educational content platforms.',
     examples: ['E-Learning Platforms', 'Student Management', 'Virtual Classrooms'],
-    image: '../../public/Education.png',
+    image: '/Education.png',
   },
   {
     icon: '🏭',
@@ -41,7 +41,7 @@ const industries = [
     description:
       'IoT solutions, supply chain optimization, and predictive maintenance systems.',
     examples: ['IoT Monitoring', 'Supply Chain', 'Quality Control'],
-    image: '../../public/Manufacturing.jpeg',
+    image: '/Manufacturing.jpeg',
   },
   {
     icon: '🏨',
@@ -49,7 +49,7 @@ const industries = [
     description:
       'Booking systems, property management, and customer experience platforms.',
     examples: ['Reservation Systems', 'Guest Management', 'Loyalty Programs'],
-    image: '../../public/Hospitality.jpeg',
+    image: '/Hospitality.jpeg',
   },
 ]
 

@@ -45,7 +45,7 @@ const Navbar = () => {
           >
             {/* 👇 Replace with your actual logo path */}
             <img
-              src="/public/logo.jpg"
+              src="/logo.jpg"
               alt="BuildBros Innovations Logo"
               className="h-14 w-auto lg:h-20 object-contain"
             />

@@ -10,7 +10,7 @@ const services = [
     description:
       'End-to-end custom software solutions designed to solve your unique business challenges. From enterprise applications to specialized tools, we build scalable, maintainable software that grows with your business.',
     link: '/services/custom-software',
-    image: '../../public/custom website.jpeg',
+    image: '/custom website.jpeg',
   },
   {
     icon: '🌐',
@@ -18,7 +18,7 @@ const services = [
     description:
       'Modern, responsive web applications built with the latest technologies. We create fast, secure, and user-friendly websites that deliver exceptional experiences across all devices and platforms.',
     link: '/services/web-development',
-    image: '../../public/Web development.jpeg',
+    image: '/Web development.jpeg',
   },
   {
     icon: '📱',
@@ -26,7 +26,7 @@ const services = [
     description:
       'Native iOS and Android apps, or cross-platform solutions using React Native and Flutter. We build mobile experiences that users love and that drive measurable business results.',
     link: '/services/mobile-apps',
-    image: '../../public/mobile devlopment.jpeg',
+    image: '/mobile devlopment.jpeg',
   },
   {
     icon: '☁️',
@@ -34,7 +34,7 @@ const services = [
     description:
       'Cloud migration, infrastructure optimization, and serverless architecture. We help you leverage AWS, Azure, and GCP to reduce costs, improve performance, and scale effortlessly.',
     link: '/services/cloud-solutions',
-    image: '../../public/cloud solutions.png',
+    image: '/cloud solutions.png',
   },
   {
     icon: '🤖',
@@ -42,7 +42,7 @@ const services = [
     description:
       'Intelligent automation, predictive analytics, and machine learning models that transform data into actionable insights. From natural language processing to computer vision.',
     link: '/services/ai-ml',
-    image: '../../public/Ai&ml.png',
+    image: '/Ai&ml.png',
   },
   {
     icon: '🧠',
@@ -50,7 +50,7 @@ const services = [
     description:
       'Unlock insights from complex data through advanced analytics, statistical modeling, and AI-driven decision-making. We help businesses leverage data to gain a competitive edge.',
     link: '/services/data-science',
-    image: '../../public/Data science.jpeg',
+    image: '/Data science.jpeg',
   },
   {
     icon: '🎨',
@@ -58,7 +58,7 @@ const services = [
     description:
       'User-centered design that combines aesthetics with functionality. We create intuitive interfaces that delight users and drive engagement through research-backed design decisions.',
     link: '/services/ui-ux-design',
-    image: '../../public/Ui&ux design.jpeg',
+    image: '/Ui&ux design.jpeg',
   },
   {
     icon: '⚙️',
@@ -66,7 +66,7 @@ const services = [
     description:
       'Streamline your development workflow with automated testing, continuous integration, and deployment pipelines. Reduce time to market while maintaining code quality.',
     link: '/services/devops',
-    image: '../../public/Devops.jpg',
+    image: '/Devops.jpg',
   },
   {
     icon: '📊',
@@ -74,7 +74,7 @@ const services = [
     description:
       'Turn raw data into strategic insights with custom dashboards, reporting systems, and business intelligence solutions. Make data-driven decisions with confidence.',
     link: '/services/data-analytics',
-    image: '../../public/Data analytics.jpeg',
+    image: '/Data analytics.jpeg',
   },
 ]
 

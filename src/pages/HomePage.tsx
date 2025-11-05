@@ -13,7 +13,7 @@ const services = [
     description:
       'Tailored solutions built from the ground up to meet your unique business requirements and scale with your growth.',
     link: '/services/custom-software',
-    image: '../../public/custom website.jpeg',
+    image: '/custom website.jpeg',
   },
   {
     icon: '🌐',
@@ -21,7 +21,7 @@ const services = [
     description:
       'Modern, responsive websites and web applications that deliver exceptional user experiences across all devices.',
     link: '/services/web-development',
-    image: '../../public/Web development.jpeg',
+    image: '/Web development.jpeg',
   },
   {
     icon: '📱',
@@ -29,7 +29,7 @@ const services = [
     description:
       'Native and cross-platform mobile applications that engage users and drive business results.',
     link: '/services/mobile-apps',
-    image: '../../public/mobile devlopment.jpeg',
+    image: '/mobile devlopment.jpeg',
   },
   {
     icon: '☁️',
@@ -37,7 +37,7 @@ const services = [
     description:
       'Scalable cloud infrastructure and migration services to optimize performance and reduce costs.',
     link: '/services/cloud-solutions',
-    image: '../../public/cloud solutions.png',
+    image: '/cloud solutions.png',
   },
   {
     icon: '🤖',
@@ -45,7 +45,7 @@ const services = [
     description:
       'Intelligent solutions powered by cutting-edge AI and ML technologies to automate and innovate.',
     link: '/services/ai-ml',
-    image: '../../public/Ai&ml.png',
+    image: '/Ai&ml.png',
   },
   {
     icon: '🧠',
@@ -53,7 +53,7 @@ const services = [
     description:
       'Unlock insights from complex data through analytics, visualization, and machine learning for smarter decisions.',
     link: '/services/data-science',
-    image: '../../public/Data science.jpeg',
+    image: '/Data science.jpeg',
   },
 ]
 
@@ -114,7 +114,7 @@ const HomePage = () => {
             <Link to="/portfolio/fintech-dashboard" className="card overflow-hidden group">
               <div className="aspect-video overflow-hidden bg-slate-100">
                 <img
-                  src="../../public/Fintech.jpeg"
+                  src="/Fintech.jpeg"
                   alt="FinTech Dashboard"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -138,7 +138,7 @@ const HomePage = () => {
             <Link to="/portfolio/healthcare-platform" className="card overflow-hidden group">
               <div className="aspect-video overflow-hidden bg-slate-100">
                 <img
-                  src="../../public/telemedicine.jpeg"
+                  src="/telemedicine.jpeg"
                   alt="Healthcare Platform"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />

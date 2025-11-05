@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             {/* ✅ Updated logo path */}
             <img
-              src="/public/logof.jpg"
+              src="/logof.jpg"
               alt="BuildBros Innovations"
               className="h-20 mb-4 object-contain"
             />
